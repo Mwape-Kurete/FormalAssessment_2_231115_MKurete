@@ -94,3 +94,42 @@ li{
     margin-left: -12px;
     border-radius: 10px;
 }
+
+/*form*/
+
+.form{
+    padding-left: 50px;
+}
+
+.form h1{
+    font-family: 'Russo One', sans-serif; 
+    text-align: center;
+}
+
+.form p{
+    font-style: italic;
+}
+
+.type-input{
+    width: 100%;
+    background-color: darkgrey;
+    border: none; 
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.type-input::placeholder{
+    color: rgb(83, 83, 83);
+}
+
+button{
+    width: 100%;
+    background-color: rgb(29, 29, 29);
+    color: white;
+    font-weight: bold;
+    border: none; 
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
