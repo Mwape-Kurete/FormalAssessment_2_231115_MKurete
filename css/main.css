@@ -11,6 +11,7 @@ nav{
     font-family: 'Russo One', sans-serif;
     display: inline-block;
     margin-top: 20px;
+    margin-left: 40px;
 }
 
 .nav-sec{
@@ -26,4 +27,70 @@ li{
 
 #active{
     font-weight: bold;
+}
+
+
+/*container-fluid*/
+.container-fluid{
+    margin-top: 100px;
+    margin-bottom: 150px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+/*Image container*/
+
+.content{
+    padding-left: 50px;
+    padding-top: 100px;
+    color: white;
+}
+
+#image-header{
+    font-family: 'Russo One', sans-serif; 
+}
+
+#image-subh{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.underline{
+    width: 120px;
+    height: 3px;
+    background-color: white;
+}
+
+.more-info{
+    border: 3px solid white;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.more-info p{
+    font-size: large;
+    font-variant: small-caps;
+}
+
+.copy{
+    width: 75%;
+    padding-top: 15px;
+    padding-bottom: 30px;
+}
+
+.img-cont{
+    height: 500px;
+    background-image: url("/assets/images/rocket.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+}
+
+.overlay{
+    width: 103.5%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: -12px;
+    border-radius: 10px;
 }
